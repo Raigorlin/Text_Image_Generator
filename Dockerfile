@@ -25,4 +25,4 @@ COPY ./src/ /txt_generator
 COPY ./config-copy/ /config-copy
 WORKDIR /txt_generator
 RUN pip install -r requirements.txt
-ENTRYPOINT [ "python" , "./txt_image_generator.py" ]
+ENTRYPOINT [ "python" , "./Text_Image_Generator.py" ]
