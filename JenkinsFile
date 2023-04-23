@@ -1,0 +1,27 @@
+pipeline {
+    agent any
+    stages {
+        stage('Git Checkout') {
+            steps {
+                sh echo 'Check Passed'
+                git branch: 'main', url: 'https://github.com/Raigorlin/Text_Image_Generator.git'
+            }
+        }
+        // stage('Run Text_Image_Generator'){
+            
+        // }
+        // stage('Test'){
+
+        // }
+        
+        // stage('Call Ansible && Build Dockerfile')
+    
+        // }
+        // stage('Push image to GCR'){
+
+        // }
+        // stage('Deploy To Minicube'){
+
+        // }
+    }
+}
