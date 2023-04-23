@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Git Checkout') {
             steps {
-                sh echo 'Check Passed'
+                sh 'echo Check Passed'
                 git branch: 'main', url: 'https://github.com/Raigorlin/Text_Image_Generator.git'
             }
         }
@@ -21,7 +21,7 @@ pipeline {
         // stage('Push image to GCR'){
 
         // }
-        
+
         // stage('Deploy To Minicube'){
 
         // }
