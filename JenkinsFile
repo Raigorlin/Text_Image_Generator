@@ -14,12 +14,14 @@ pipeline {
 
         // }
         
-        // stage('Call Ansible && Build Dockerfile')
+        // stage('Call Ansible && Build Dockerfile'){
     
         // }
+
         // stage('Push image to GCR'){
 
         // }
+        
         // stage('Deploy To Minicube'){
 
         // }
